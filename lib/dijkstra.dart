@@ -64,7 +64,7 @@ class Dijkstra {
     }
 
     if (end != null && costs[end] == null) {
-      print('Could not find a path');
+      // print('Could not find a path');
     }
 
     return predecessors;
